@@ -1,1 +1,1 @@
-# stepik_selenium_final_project
+# Final project for Stepik Selenium+Python Course https://stepik.org/course/575
