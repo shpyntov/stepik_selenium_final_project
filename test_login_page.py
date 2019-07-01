@@ -7,5 +7,5 @@ def test_login_page_correct(browser):
     page = MainPage(browser, link)
     page.open()
     page.go_to_login_page()
-    page = LoginPage(browser, link)
-    page.should_be_login_page()
+    login_page = LoginPage(browser, browser.current_url)
+    login_page.should_be_login_page()
