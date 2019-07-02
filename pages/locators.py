@@ -25,7 +25,7 @@ class ProductPageLocators(object):
 
 
 class BasePageLocators(object):
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK = (By.CSS_SELECTOR, ".navbar-right a")
     CART_LINK = (By.CSS_SELECTOR, ".btn-group .btn")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
