@@ -14,3 +14,10 @@ class LoginPageLocators(object):
     REG_PASS1 = (By.CSS_SELECTOR, "#id_registration-password1")
     REG_PASS2 = (By.CSS_SELECTOR, "#id_registration-password2")
     REG_BUTTON = (By.CSS_SELECTOR, "[name='registration_submit']")
+
+class ProductPageLocators(object):
+    ADD_TO_CART_BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    ITEM_NAME = (By.CSS_SELECTOR, ".product_main > h1")
+    ITEM_PRICE = (By.CSS_SELECTOR, ".product_main .price_color")
+    ADDED_TO_CART_MESSAGE = (By.CSS_SELECTOR, '.alert-success .alertinner')
+    CART_PRICE_MESSAGE = (By.CSS_SELECTOR, '.alert-info .alertinner > p')
