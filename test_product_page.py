@@ -8,7 +8,7 @@ link = 'http://selenium1py.pythonanywhere.com/catalogue/the-shellcoders-handbook
 
 
 @pytest.mark.need_review
-def test_guest_can_add_product_to_cart(browser, link):
+def test_guest_can_add_product_to_cart(browser):
     page = ProductPage(browser, link)
     page.open()
     page.add_to_cart()
